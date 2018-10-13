@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <%= render "layouts/partials/header" %>
+
+  <body>
+  <%= render "layouts/partials/navBar" %> <br>
+
+    <div class="container">
+      <%= render "layouts/partials/flashMessage" %>
+
+      <%= yield %>
+    </div>
+  </body>
+</html>
